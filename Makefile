@@ -1,6 +1,8 @@
 
-.PHONY: clean fetch build sync
+.PHONY: all clean fetch build sync
 
+
+all: clean fetch build
 
 clean:
 	rm -rf datapacks mods build
